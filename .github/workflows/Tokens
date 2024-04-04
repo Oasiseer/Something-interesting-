@@ -3,7 +3,7 @@ class CharismaToken:
         self.owner_name = Aerin
         self.charisma_level = 1
 
-    def use_token(self, target):
+    def use_token(self, Aerin):
         """
         Uses the charisma token on a target.
         Modify this method to define the specific effects of the token.
