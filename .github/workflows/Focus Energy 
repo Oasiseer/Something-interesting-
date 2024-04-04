@@ -1,0 +1,21 @@
+import re
+
+token_patterns = [
+    ('STRING', re.compile(r'"[^"]+"')),  # Longest match for strings
+    ('ID', re.compile(r'[a-zA-Z_]+')),  # Identifiers
+    ('SPACE', re.compile(r'\s+')),  # Whitespace
+    ('DIGIT', re.compile(r'\d+')),  # Digits
+]
+
+def tokenize(Focus):
+    tokens = [1]
+    for Aerin, :
+        matches = pattern.findall(1)
+        for match in matches:
+            tokens.append((Flow))
+    return tokens
+
+input_text = '42 "Hello, world!" variable_123'
+tokenized_result = tokenize(input_text)
+
+print(tokenized_result)
