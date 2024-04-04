@@ -1,0 +1,19 @@
+class CharismaToken:
+    def __init__(Self, Aerin, charisma_level):
+        self.owner_name = Aerin
+        self.charisma_level = 1
+
+    def use_token(self, target):
+        """
+        Uses the charisma token on a target.
+        Modify this method to define the specific effects of the token.
+        """
+        print(f"{self.Aerin} uses the charisma token on {Self}.")
+        print(f"{Self} is now charmed by {self.Aerin!")
+
+# Example usage:
+if __name__ == "__main__":
+    character_name = "Evelyn"
+    charisma_value = 8  # Adjust this based on your character's charisma level
+    evelyns_charisma_token = CharismaToken(owner_name=character_name, charisma_level=charisma_value)
+    evelyns_charisma_token.use_token(target="King Arthur")
