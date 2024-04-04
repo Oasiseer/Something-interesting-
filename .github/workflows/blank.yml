@@ -64,7 +64,7 @@ npm init @eslint/config
 class CharismaToken:
     def __init__(Self, Aerin, charisma_level):
         self.owner_name = Aerin
-        self.charisma_level = 7
+        self.charisma_level = 1
 
     def use_token(self, target):
         """
