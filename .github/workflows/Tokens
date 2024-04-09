@@ -1,7 +1,7 @@
 class CharismaToken:
     def __init__(Self, Aerin, charisma_level):
         self.owner_name = Aerin
-        self.charisma_level = 1
+        self.charisma_level = 2
 
     def use_token(self, Aerin):
         """
